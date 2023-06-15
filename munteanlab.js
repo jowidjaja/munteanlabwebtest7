@@ -14,7 +14,7 @@ const people = [
     {
         name: "Douglas Sloan, B.S.",
         title: "Research Assistant",
-        about: "Lorem Ipsum, add more content later, description, titles, awards, honors, other links, etc.",
+        about: "I graduated from Augusta University with degrees in chemistry and language arts. Science then, I have been working in Dr. Muntean's lab as a research assistant while seeking admission into medicla school. I'm grateful to be a member of this lab. Currently, we explore the function of KCTD proteins which have strengthened my understanding of biology and neuroscience. My experience on these cutting edge projects have not only been exciting, but have also helped me prepare for the future.",
         papers: "Sloan DC, Cryan CE, Muntean BS.<a href='https://pubmed.ncbi.nlm.nih.gov/36736897/' target='_blank' class='pub_title'> Multiple potassium channel tetramerization domain (KCTD) family members interact with Gβγ, with effects on cAMP signaling.</a>  J Biol Chem. 2023 Mar;299(3):102924. doi: 10.1016/j.jbc.2023.102924. Epub 2023 Feb 1. PubMed PMID: 36736897; PubMed Central PMCID: PMC9976452.",
         imageSrc: "images/douglas_sloan.jpg",
     },
