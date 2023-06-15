@@ -285,7 +285,7 @@ hr{
 }
 .slider{
    display:block;
-   width: 90vw;
+   width: 90%;
    height:700px;
    overflow:hidden;
    background-color:white;
