@@ -1,0 +1,109 @@
+<!--start document set-up-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale-1"/>
+  <title>MunteanLab || Home</title>
+  <link rel="stylesheet" href="munteanlab.css">
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+  <link href="https://fonts.cdnfonts.com/css/abadi-mt-std?styles=15890,15885,15888,15881,15883" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/franklin-gothic?styles=17611,17609,17610,17612,17613" rel="stylesheet">  
+  <script defer src="munteanlab.js"></script>                     
+  </head>
+<!--end document set-up-->
+
+<body>
+<!--start wrapper-->
+  <div id="wrapper">
+  <header>
+  <!--start navigation bar-->
+  <!--start page logo-->
+  <div class="logo">
+    <a href="home.html"><img class="logo" src="images/logo1.png" alt="Plain Logo" width="175"></a>
+  </div>
+  <div class="internal_logo">
+    <a href="home.html"><img class="logo" src="images/logo2.png" alt="Plain Logo" width="175"></a>
+  </div>
+  <!--end page logo-->
+  <!--start navigation tabs-->
+  <nav class="nav_links">
+    <input type="checkbox" class="toggle-menu">
+    <div class="hamburger"></div>
+    <ul class="menu">
+      <li class="nav_item"><a href="home.html">Home</a></li>
+      <li class="nav_item"><a href="research.html">Research</a></li>
+      <li class="nav_item"><a href="people.html">People</a></li>
+      <li class="nav_item"><a href="papers.html">Papers</a></li>
+      <li class="nav_item"><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <!--end navigation tabs-->
+  <!--end navigation bar-->
+  </header>
+
+  <!--start image gallery slider-->
+  <div class="slider_cont">
+  <div class="slider">
+    <div class="slides">
+      <!--start radio buttons: for little navigation dots on image-->
+      <input type="radio" name = "radio=-btn" id="radio1">
+      <input type="radio" name = "radio=-btn" id="radio2">
+      <input type="radio" name = "radio=-btn" id="radio3">
+      <input type="radio" name = "radio=-btn" id="radio4">
+      <!--end radio buttons-->
+      <!--start slide images-->
+      <div class="slide first">
+        <!--gallery image 1: large screen--><img src="images/homepic3.png" alt="" class="image_l" >
+        <!--gallery image 1: small screen--><img src="images/test1_h.png" alt="" class="image_s" >
+      </div>
+      <div class="slide">
+        <!--gallery image 2: large screen--><img src="images/test6.png" alt="" class="image_l">
+        <!--gallery image 2: small screen--><img src="images/test2_h.png" alt="" class="image_s" >
+      </div>
+      <div class="slide">
+        <!--gallery image 3: large screen--><img src="images/test7.png" alt="" class="image_l">
+        <!--gallery image 3: small screen--><img src="images/test3_h.png" alt="" class="image_s" >
+      </div>
+      <div class="slide">
+        <!--gallery image 4: large screen--><img src="images/test8.png" alt="" class="image_l">
+        <!--gallery image 4: large screen--><img src="images/test4_h.png" alt="" class="image_s" >
+      </div>
+      <!--end slide images-->
+      <!--start automatic navigation: for autoplay-->
+      <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        <div class="auto-btn4"></div>
+      </div>
+      <!--end automatic navigation: for autoplay-->
+    </div>
+    <!--start manual navigation: clickable buttons for image selection-->
+    <div class="navigation-manual">
+      <label for="radio1" class="manual-btn"></label>
+      <label for="radio2" class="manual-btn"></label>
+      <label for="radio3" class="manual-btn"></label>
+      <label for="radio4" class="manual-btn"></label>
+    </div>
+    <!--end manual navigation-->
+    </div>
+  </div>
+  <!--end image gallery slider-->  
+  <!--start explore button-->
+  <div class="homebutton">
+    <a href="research.html">EXPLORE</a>
+  </div>
+  <!--end explore button-->
+</div>
+<!--end wrapper-->
+</body>
+<!--start footer-->
+<div class=footer>
+  <p><em>MunteanLab &copy; 2023</em>  </p>
+</div>
+<!--end footer-->
+</html>
