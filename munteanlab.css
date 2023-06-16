@@ -444,8 +444,8 @@ hr{
 /*VIDEO ON STACKING RESPONDIVE GRID https://youtu.be/sKFW3wek21Q*/
 
 .peoplepage{
-    margin-right:20px;
-    margin-left:20px;
+    margin-right:auto;
+    margin-left:auto;
     display:block;
 }
 .alum_container{
